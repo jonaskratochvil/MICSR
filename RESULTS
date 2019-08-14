@@ -1,0 +1,19 @@
+Zpravy dataset (~36 hours), no additional LM, no augmentations
+
+%WER 73.40 [ 2759 / 3759, 255 ins, 419 del, 2085 sub ] exp/tri1/decode_dev/wer_13_0.5
+%WER 58.58 [ 2202 / 3759, 321 ins, 258 del, 1623 sub ] exp/tri2/decode_dev/wer_12_1.0
+%WER 30.97 [ 1164 / 3759, 131 ins, 199 del, 834 sub ] exp/chain/tdnn1a_sp/decode_dev/wer_8_1.0
+%WER 31.31 [ 1177 / 3759, 133 ins, 216 del, 828 sub ] exp/chain/tdnn1a_sp_online/decode_dev/wer_8_1.0
+
+
+400, 500, 600 (~78 hours), Europarlament dataset
+- basic means LM just from transcriptions
+
+%WER 49.14 [ 1847 / 3759, 228 ins, 307 del, 1312 sub ] exp/tri1/decode_dev/wer_17_0.0
+%WER 55.41 [ 2083 / 3759, 275 ins, 305 del, 1503 sub ] exp/tri1/decode_dev_basic/wer_13_1.0
+%WER 37.22 [ 1399 / 3759, 181 ins, 210 del, 1008 sub ] exp/tri2/decode_dev/wer_13_0.5
+%WER 42.94 [ 1614 / 3759, 206 ins, 215 del, 1193 sub ] exp/tri2/decode_dev_basic/wer_12_1.0
+%WER 27.80 [ 1045 / 3759, 231 ins, 119 del, 695 sub ] exp/tri3/decode_dev/wer_17_0.0
+%WER 35.89 [ 1349 / 3759, 198 ins, 217 del, 934 sub ] exp/tri3/decode_dev.si/wer_15_0.0
+%WER 21.26 [ 799 / 3759, 95 ins, 122 del, 582 sub ] exp/chain/tdnn1a_sp/decode_dev/wer_9_0.5
+%WER 21.31 [ 801 / 3759, 90 ins, 143 del, 568 sub ] exp/chain/tdnn1a_sp_online/decode_dev/wer_9_0.5
